@@ -1,0 +1,75 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+}
+.text-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+  max-width: 350px;
+  padding-left: 40px;
+}
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+  }
+}
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: white;
+  margin-bottom: 10px;
+}
+.text-box {
+  width: 100%;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.button {
+  margin-top: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #219a6f;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: none;
+}
+.noOfChars {
+  color: #219a6f;
+  font-size: 24px;
+  font-weight: bold;
+}
+.image-container {
+  margin-left: 70px;
+  align-self: center;
+}
+.poster {
+  height: 500px;
+  width: 700px;
+}
